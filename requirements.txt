@@ -1,4 +1,10 @@
 pandas
 numpy
 scikit-learn
--e .
+ipykernel
+pip
+seaborn
+xgboost
+catboost
+# this -e is used to create the modul
+#-e .

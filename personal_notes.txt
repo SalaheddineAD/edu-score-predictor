@@ -1,0 +1,4 @@
+to activate environement : conda activate "env_name"
+to install requirements: pip install -r requirements.txt 
+and if -e. is in the requirements.txt then it will create the folder info once again so better to comment it.
+
