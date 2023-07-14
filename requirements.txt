@@ -6,5 +6,7 @@ pip
 seaborn
 xgboost
 catboost
+dill
+dataclasses
 # this -e is used to create the modul
 -e .

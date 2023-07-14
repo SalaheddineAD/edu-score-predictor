@@ -7,6 +7,9 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 
+#these imports are just for testing purposes
+from data_transformation import DataTransformation
+
 
 # DataIngestionConfig is to configure the data-source path and path where we store data 'artifacts'
 # for best practices we should have another folder config_entity for all the configurations of the project 
@@ -51,6 +54,9 @@ class DataIngestion:
 
 if __name__=="__main__":
     obj=DataIngestion()
-    obj.initiate_data_ingestion()
+    train_data, test_data = obj.initiate_data_ingestion()
+    data_transformation = DataTransformation()
+    data_transformation.initiate_data_transformation(train_data, test_data)
+
 
 
