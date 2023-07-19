@@ -8,5 +8,6 @@ xgboost
 catboost
 dill
 dataclasses
+flask
 # this -e is used to create the modul
 -e .
