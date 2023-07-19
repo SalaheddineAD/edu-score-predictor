@@ -15,6 +15,11 @@ class PredictPipeline:
         pass
     
     def predict(self, features):
+        '''
+        predict gets the non-processed input as a dataframe then preprocess it then predicts. 
+        It uses the preprocessor.pkl and model.pll
+        
+        '''
         try:
             model_path = 'artifacts/model.pkl'
             preprocessor_path = 'artifacts/preprocessor.pkl'
@@ -25,7 +30,10 @@ class PredictPipeline:
 
             print("After Loading")
             data_preprocessed = preprocessor.transform(features)
+            print(data_preprocessed)
+            print("transformation working")
             predictions = model.predict(data_preprocessed)
+            print("model working")
             
             return predictions
         
@@ -65,7 +73,7 @@ class CustomData:
                 "race_ethnicity" : [self.race_ethnicity],
                 "parental_level_of_education" : [self.parental_level_of_education],
                 "lunch" : [self.lunch],
-                "test_prepatation_course" : [self.test_preparation_course],
+                "test_preparation_course" : [self.test_preparation_course],
                 "reading_score":[self.reading_score],
                 "writing_score" : [self.writing_score]
             }
