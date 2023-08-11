@@ -1,13 +1,72 @@
-pandas
-numpy
-scikit-learn
-ipykernel
-pip
-seaborn
-xgboost
-catboost
-dill
-dataclasses
-flask
-# this -e is used to create the modul
+absl-py @ file:///home/conda/feedstock_root/build_artifacts/absl-py_1673535674859/work
+asttokens==2.0.8
+backcall==0.2.0
+blinker==1.6.2
+catboost==1.2
+click==8.1.5
+colorama==0.4.5
+comm @ file:///C:/b/abs_1419earm7u/croot/comm_1671231131638/work
+contourpy==1.1.0
+cycler==0.11.0
+dataclasses==0.6
+debugpy @ file:///C:/ci/debugpy_1637073815078/work
+decorator==5.1.1
+dill==0.3.6
+-e git+https://github.com/SalaheddineAD/end-to-end-ml-project.git@a7ef666c4b28917e828e443dc5b836643c240c0b#egg=end_to_end_ml_project
+entrypoints==0.4
+executing==1.0.0
+Flask==2.3.2
+fonttools==4.41.0
+graphviz==0.20.1
+grpcio @ file:///C:/ci/grpcio_1637590968244/work
+importlib-metadata @ file:///C:/b/abs_20ndzb2j6v/croot/importlib-metadata_1678997085534/work
+importlib-resources==6.0.0
+ipykernel @ file:///C:/b/abs_b4f07tbsyd/croot/ipykernel_1672767104060/work
+ipython @ file:///C:/b/abs_d1yx5tjhli/croot/ipython_1680701887259/work
+itsdangerous==2.1.2
+jedi @ file:///C:/ci/jedi_1644315425835/work
+Jinja2==3.1.2
+joblib==1.3.1
+jupyter_client @ file:///C:/b/abs_059idvdagk/croot/jupyter_client_1680171872444/work
+jupyter_core @ file:///C:/b/abs_9d0ttho3bs/croot/jupyter_core_1679906581955/work
+kiwisolver==1.4.4
+Markdown @ file:///home/conda/feedstock_root/build_artifacts/markdown_1679584000376/work
+MarkupSafe==2.1.3
+matplotlib==3.7.2
+matplotlib-inline==0.1.6
+nest-asyncio @ file:///C:/b/abs_3a_4jsjlqu/croot/nest-asyncio_1672387322800/work
+numpy @ file:///D:/bld/numpy_1651020737746/work
+packaging @ file:///C:/b/abs_ed_kb9w6g4/croot/packaging_1678965418855/work
+pandas==2.0.3
+parso==0.8.3
+pickleshare==0.7.5
+Pillow==10.0.0
+platformdirs @ file:///C:/b/abs_73cc5cz_1u/croots/recipe/platformdirs_1662711386458/work
+plotly==5.15.0
+prompt-toolkit @ file:///C:/b/abs_6coz5_9f2s/croot/prompt-toolkit_1672387908312/work
+protobuf @ file:///D:/bld/protobuf_1681050097049/work/python
+psutil @ file:///C:/Windows/Temp/abs_b2c2fd7f-9fd5-4756-95ea-8aed74d0039flsd9qufz/croots/recipe/psutil_1656431277748/work
+pure-eval==0.2.2
+Pygments @ file:///C:/b/abs_fay9dpq4n_/croot/pygments_1684279990574/work
+pyparsing==3.0.9
+python-dateutil==2.8.2
+pytz==2023.3
+pywin32==304
+pyzmq @ file:///C:/b/abs_655zk4a3s8/croot/pyzmq_1686601465034/work
+scikit-learn==1.3.0
+scipy==1.10.1
+seaborn==0.12.2
+six==1.16.0
+stack-data==0.5.0
+tenacity==8.2.2
+tensorboard==1.15.0
+threadpoolctl==3.1.0
+tornado==6.2
+traitlets @ file:///C:/b/abs_e5m_xjjl94/croot/traitlets_1671143896266/work
+typing_extensions @ file:///C:/b/abs_5em9ekwz24/croot/typing_extensions_1686602003259/work
+tzdata==2023.3
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+Werkzeug==2.3.6
+xgboost==1.7.6
+zipp @ file:///C:/b/abs_b9jfdr908q/croot/zipp_1672387552360/work
 -e .
