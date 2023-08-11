@@ -12,7 +12,7 @@ from exception import CustomException
 from logger import logging
 
 
-def save_object(file_path, obj):
+def save_object(file_path, obj): 
     try:
         dir_path = os.path.dirname(file_path)
 

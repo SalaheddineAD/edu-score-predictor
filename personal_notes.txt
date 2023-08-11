@@ -1,5 +1,6 @@
 
 **** environment installation ****
+- To create environment: conda create -n "env_name" python==3.7
 - To activate environement : conda activate "env_name"
 
 - To install requirements: pip install -r requirements.txt 
