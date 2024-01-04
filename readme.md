@@ -1,7 +1,6 @@
 # edu-score-predictor
 ## Overview
 EduScorePredictor is an end-to-end solution designed to harness the power of machine learning to predict student performance. Built with Python and fully deployed on AWS, it encapsulates the essence of MLOps with data ingestion, transformation, and model training pipelines for educational analytics.
-ScreenShot of the web-app
 ![Screenshot of the web-app](https://github.com/SalaheddineAD/edu-score-predictor/assets/93080778/fb4b38e1-638f-432d-8f40-a94ae97727be)
 ![edu-scrore](https://github.com/SalaheddineAD/edu-score-predictor/assets/93080778/6b75b429-e122-4872-a541-a7ac4155055d)
 ![edu-scrore3](https://github.com/SalaheddineAD/edu-score-predictor/assets/93080778/8b05a148-925a-4c27-8ec8-0698f06a7bdd)
